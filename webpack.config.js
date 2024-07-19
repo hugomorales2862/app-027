@@ -18,7 +18,7 @@ module.exports = {
         filename: 'styles.css'
     })
   ],
-  module: {
+   module: {
     rules: [
       {
         test: /\.(c|sc|sa)ss$/,
