@@ -3,7 +3,7 @@
         'name' => 'mindef/demo',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '2bde9d65e686f80eec80bfcebb706974f981f083',
+        'reference' => '166ce0aa2519ed7bbbab9a618c2b1b2f41870d5f',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -40,7 +40,7 @@
         'mindef/demo' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '2bde9d65e686f80eec80bfcebb706974f981f083',
+            'reference' => '166ce0aa2519ed7bbbab9a618c2b1b2f41870d5f',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

@@ -4,6 +4,7 @@ require_once __DIR__ . '/../includes/app.php';
 
 use MVC\Router;
 use Controllers\AppController;
+use Controllers\EmailController;
 use Controllers\EvaluadoController;
 
 $router = new Router();
@@ -18,5 +19,6 @@ $router->get('/API/evaluados/datatableEvaluacionesIngresadas', [EvaluadoControll
 $router->get('/API/evaluados/llenar', [EvaluadoController::class,'llenarFormularioApi'] );
 $router->get('/API/evaluados/llenarEvaluado', [EvaluadoController::class,'llenarFormularioEvaluadoApi'] );
 $router->post('/API/evaluados/guardarEvaluado', [EvaluadoController::class,'guardarApi'] );
+$router->get('/email', [EmailController::class,'email'] );
 // Comprueba y valida las rutas, que existan y les asigna las funciones del Controlador
 $router->comprobarRutas();
